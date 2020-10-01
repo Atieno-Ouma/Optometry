@@ -1,0 +1,85 @@
+ *{
+ 	margin:0;
+ 	padding: 0;
+ }
+ .formdiv{
+ 	max-width: 60%;
+ 	height: auto;
+ 	position: relative;
+ 	margin: 6% auto;
+ 	background: #fff;
+ 	padding: 5px;
+ }
+ .design{
+ 	float: left;
+ }
+ .res{
+ 	padding-top: 65px;
+ 	width: 350px;
+ 	height: 250px;
+ }
+
+ .log{
+ 	width: 380px;
+ 	height: 300px;
+ 	padding-top: 25px;
+ 	float: left;
+
+ }
+h2{
+	padding-top: 25px;
+	color: #6666FF;
+	padding-bottom: 15px;
+}
+p{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.dominant-color{
+	background-color: #13baf7;
+}
+ .input-group{
+ 	padding-top: 30px;
+ 	float: right;
+ 	padding-right: 20px; 
+
+ }
+ 
+ .input-field{
+ 	width: 100%;
+ 	padding: 10px 0;
+ 	margin: 5px 0;
+ 	box-sizing: border-box;
+ 	border: 1px solid #ccc;
+ 	outline: none;
+ 	background: transparent;
+ }
+ .submit-btn{
+ 	width: 100%;
+ 	padding: 10px 30px;
+ 	cursor: pointer;
+ 	display: block;
+ 	margin: auto;
+ 	background-color: #6666FF;
+ 	border:none;
+ 	outline: none;
+ }
+ .sub{
+ 	width: 100%;
+ 	padding: 10px 30px;
+ 	cursor: pointer;
+ 	display: block;
+ 	margin: 20px 0;
+ 	background-color: #6666FF;
+ 	border:none;
+ 	outline: none;
+
+ }
+
+ span{
+ 	display: block;
+ 	padding-top: 16px;
+ 	padding-bottom: 16px;
+
+ }
+
