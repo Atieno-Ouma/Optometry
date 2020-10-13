@@ -31,17 +31,11 @@
                       <tr>
                         <th>SN/NO</th>
                         <th>EQUIPMENT/MATERIALS</th>
-                        
-                        <th>TYPE</th>
-                        
-                        <th>S-No</th>
+                        <th>Reg No</th>
                         <th>QUANTITY </th>
                         <th>STATUS</th>
-                        
-                      
-                      
-                        
-                        <th>Action</th>
+						  <th>Remarks</th>
+						  <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -53,10 +47,7 @@
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
-  </div>
 
-  
+
+
   <!-- /page content -->

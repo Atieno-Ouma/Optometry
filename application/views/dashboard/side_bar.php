@@ -29,8 +29,8 @@
 			    
 				<ul>
 					<li>	<a href="<?php  echo base_url(); ?>index.php/inventory" class="waves-effect">Dashboard</a>  </li>
-				<li>	<a href="<?php  echo base_url(); ?>index.php/equipments" class="waves-effect">Equipments</a>  </li>
-					<li>	<a href="<?php  echo base_url(); ?>index.php/rooms" class="waves-effect">Rooms</a></li>
+				<li>	<a href="<?php  echo base_url(); ?>index.php/fixed" class="waves-effect">Fixed Assets</a>  </li>
+					<li>	<a href="<?php  echo base_url(); ?>index.php/consumables" class="waves-effect">Consumable Assets</a></li>
 					<li>	<a href="<?php  echo base_url(); ?>index.php/books" class="waves-effect">Books</a> </li>
 			</ul>
 			    </a>

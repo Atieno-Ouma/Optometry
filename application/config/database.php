@@ -71,14 +71,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | the query builder class.
 */
 $active_group = 'default';
-$query_builder = TRUE;
+$query_builder = TRUE;///Wait for me to share the latest database with you
 
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => 'user-registration',
+	'username' => 'root',//replace with your localhost username
+	'password' => '',//replace with your locahost password
+	'database' => 'optometry_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

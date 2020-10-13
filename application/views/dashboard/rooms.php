@@ -73,10 +73,11 @@
                         
                     </div>
                     <label class="control-label">Description (Optional):</label>
-                    <div class="col-md-12 form-group has-feedback">
-                        <input required="required" autocomplete="on" type="text" id="description" placeholder="DESCRIPTION" name="description" class="form-control" value="">
+					<div class="col-md-12 form-group has-feedback">
+						<input required="required" autocomplete="on" type="text" id="description" placeholder="DESCRIPTION" name="description" class="form-control" value="">
                         
-                    </div>
+					</div>
+
                     <label class="control-label">NUMBER OF EQUIPMENTS:</label>
                     <div class="col-md-12 form-group has-feedback">
                         <input required="required" autocomplete="on" type="text" id="no_equipments" placeholder="NUMBER OF EQUIPMENTS" name="no_equipments" class="form-control" value="">

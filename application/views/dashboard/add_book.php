@@ -1,3 +1,8 @@
+<style>
+	.form-group {
+		display:inline-block;
+	}
+</style>
 <div id="page-wrapper">
 	<div class="container-fluid">
 		<div class="row bg-title">
@@ -78,10 +83,10 @@
 						</div>
 
 						
-						
+					</div>
 					<div class="form-group">
 							<div class="col-sm-12">
-								<button class="btn btn-success pull-right" >Add </button>
+								<button class="btn btn-success pull-right" >Add Book</button>
 							</div>
 						</div>
 					</form>

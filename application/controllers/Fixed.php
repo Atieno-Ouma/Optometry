@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Inventory extends CI_Controller
+class Fixed extends CI_Controller
 {
 
 	/**
@@ -13,7 +13,7 @@ class Inventory extends CI_Controller
 	 *        http://example.com/index.php/welcome/index
 	 *    - or -
 	 * Since this controller is set as the default controller in
-	
+
 	 * config/routes.php, it's displayed at http://example.com/
 	 *
 	 * So any other public methods not prefixed with an underscore will
@@ -23,19 +23,18 @@ class Inventory extends CI_Controller
 	public function index()
 	{
 
-		//call db nethods here
-
-		//eg  count all patients
-		//$patients = get_count('patients');
-
-		//add to table
-
-		//insertRecord('patints',array('name'=>'You '))
-
 		$this->load->view('dashboard/header');
 		$this->load->view('dashboard/side_bar');
-		$this->load->view('dashboard/inventory');
+		$this->load->view('dashboard/fixed');
 		$this->load->view('dashboard/footer');
+	}
+	public function add(){
+		$this->load->view('dashboard/header');
+		$this->load->view('dashboard/side_bar');
+		$this->load->view('dashboard/add_equipment');
+		$this->load->view('dashboard/footer');
+
+
 	}
 
 
